@@ -7,6 +7,7 @@ const app = express()
 app.use(express.urlencoded({extended: true}))
 
 app.set('view engine','ejs')
+//this is a acomment
 
 app.use(express.static('public'))
 
